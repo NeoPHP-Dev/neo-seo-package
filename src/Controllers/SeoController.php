@@ -84,6 +84,10 @@ class SeoController extends AbstractController
                     continue;
                 }
 
+                if ($path === '/sitemap.xml' || $path === '/robots.txt') {
+                    continue;
+                }
+
                 $excluded = false;
                 foreach ($excludePrefixes as $prefix) {
                     if (str_starts_with($path, $prefix)) {
