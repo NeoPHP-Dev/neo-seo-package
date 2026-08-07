@@ -1,0 +1,14 @@
+{
+    "name": "neophp/seo-package",
+    "description": "Automatic sitemap.xml and robots.txt generation from scanned routes for NeoPHP",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\NeoPHP\\SeoPackage\\": "src/"
+        }
+    }
+}
