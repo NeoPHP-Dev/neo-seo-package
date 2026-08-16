@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vendor\NeoPHP\SeoPackage\Controllers;
+namespace Vendor\NeoPHP\SeoPackage\Controller;
 
 use Neo\Core\Controller\AbstractController;
 use Neo\Core\Http\Response\Types\Response;
